@@ -1,0 +1,58 @@
+.tips h2 {
+  font-size: 2.1875rem;
+  font-weight: 800;
+  line-height: 2.1875rem;
+  color: #282828;
+  text-align: center; }
+.tips hr {
+  margin-bottom: 0; }
+.tips article {
+  position: relative;
+  margin-top: 4.375rem;
+  background-color: #282828;
+  padding: 1.25rem 2.1875rem 3.4375rem; }
+  .tips article .type {
+    position: absolute;
+    height: 4.375rem;
+    background: #ff4800;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    top: -1.125rem;
+    left: -.875rem;
+    font-size: 1.5625rem;
+    font-weight: 700;
+    line-height: 4.375rem;
+    color: #fff; }
+  .tips article h3,
+  .tips article h4 {
+    text-align: right; }
+  .tips article h3 {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    color: #fff; }
+    .tips article h3::before {
+      content: url("../img/site/puce.svg");
+      padding-right: .625rem; }
+  .tips article h4 {
+    margin-bottom: 2.8125rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 0.9375rem;
+    color: #8d8d8d; }
+  .tips article p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    color: #ccc;
+    text-align: justify; }
+    .tips span {
+      color: #38f3f3
+    }
+    .tips .view_all {
+      display: block;
+      width: 4.125rem;
+      margin: auto;
+      margin-top: 6.875rem; }
+      .tips .view_all a img {
+        width: 150%; }

@@ -1,0 +1,23 @@
+#scroll_to_top {
+  position: fixed;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  bottom: 3.125rem;
+  right: 1.875rem;
+}
+#scroll_to_top img {
+  width: 2.43rem;
+    animation: scroll_to_top 1s ease-in-out infinite alternate;
+}
+
+@keyframes scroll_to_top {  // Animation de la fleche swip up
+from {
+  opacity: 1;
+  margin-top: 0;
+}
+
+to {
+  opacity: .2;
+  margin-top: 2rem;
+}
+}
